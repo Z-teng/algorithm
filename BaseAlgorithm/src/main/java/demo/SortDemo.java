@@ -3,7 +3,6 @@ package demo;
 import common.SortAlgorithm;
 
 import java.util.Arrays;
-import java.util.Random;
 
 /**
  * @author cennavi_zt

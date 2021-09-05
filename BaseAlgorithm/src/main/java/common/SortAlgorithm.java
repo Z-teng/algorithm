@@ -31,6 +31,18 @@ public class SortAlgorithm {
      * @param arr
      */
     public static void SelectSort(int[] arr) {
+        int len = arr.length;
+        for (int i = 0; i < len; i++) {
+            int min = arr[i];
+            for (int j = i; j < len; j++) {
+                if (min > arr[j]){
+                    int temp = arr[j];
+                    arr[j] = min;
+                    min = temp;
+                }
+            }
+            arr[i] = min;
+        }
 
     }
 }
