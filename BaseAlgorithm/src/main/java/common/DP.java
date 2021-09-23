@@ -21,6 +21,11 @@ public class DP {
         return stepArr[steps];
     }
 
+    /**
+     * 此为反例，效率低下
+     * @param steps
+     * @return
+     */
     public int stair3Problem(int steps) {
         if (steps == 1){
             return 1;
